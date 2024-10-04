@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Lato&family=Lora:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+.popup-enter {
+  @apply opacity-0;
+}
+
+.popup-enter-active {
+  @apply transition-opacity duration-300 opacity-100;
+}
+
+.popup-exit {
+  @apply opacity-100;
+}
+
+.popup-exit-active {
+  @apply transition-opacity duration-300 opacity-0;
+}
